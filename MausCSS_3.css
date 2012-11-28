@@ -1,0 +1,219 @@
+﻿body
+{  margin:0px;
+   padding: 0px;
+   background-color: #D1C7A9;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:large;
+   color : #707070;
+}
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   CONTAINER */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   CONTAINER */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   CONTAINER */
+
+
+#container
+{  margin: 0px auto;
+   background-color: #D1C7A9;
+   /*background-color: silver;*/
+   width: 950px;
+   height: 600px;
+}
+
+header
+{  border-radius: 5px ;
+   height: 111px;
+   width:950px;
+   background-image: url(imagepool/mausHintergrundKopf1024x111_transparent.png);
+   background-repeat:no-repeat;
+   text-align: right;
+}
+
+nav
+{  border-radius: 5px ;
+   margin-left:   0px;
+   margin-top:   10px;
+   width:       185px;
+   height:      454px;
+   background-color: #ECE4CA;
+   float:       left;
+   line-height: 1.4em;
+}
+
+#content
+{  border-radius: 5px ;
+   margin-left:  10px;
+   padding-left:3px;
+   margin-top:   10px;
+   padding-top:3px;
+   
+   width:       752px;
+   height:      452px;
+   background-color: #ECE4CA;
+   float:       left;
+   line-height: 1.4em;
+
+}
+
+footer
+{  margin-top:5px;
+   width:950px;        
+   border-radius: 5px ;
+   border-top-style: solid;
+   border-top-color: #DED9BF;
+   height: 21px;
+   background-color: #ECE4CA;
+   float: left;
+   font-size:small ;
+   text-align:center;
+}
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE    CONTAINER */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE    CONTAINER */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE    CONTAINER */
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   IMAGE*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   IMAGE*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   IMAGE*/
+
+img
+{	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+img.center
+{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.dozentenbild
+{ transform:rotate(10deg);
+  -ms-transform:rotate(10deg);     /* Internet Explorer */
+  -moz-transform:rotate(10deg);    /* Firefox */
+  -webkit-transform:rotate(10deg); /* Safari and Chrome */
+  -o-transform:rotate(10deg);      /* Opera */
+  /* Add box-shadow */
+  box-shadow:2px 2px 3px #aaaaaa;	
+  z-index:4;
+  float:right;
+  width:50px;
+  border-style:solid;
+  border-width:4;
+  border-color:grey;
+
+}
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END      IMAGE*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END      IMAGE*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END      IMAGE*/
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START    Text*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START    Text*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START    Text*/
+
+.textcenter
+{text-align:center;
+}
+
+.bigFunText
+{text-align:center;
+ font-family:'Comic Sans MS'; 
+ font-size:xx-large;
+ line-height: 1.4em;
+}
+
+
+
+h1
+{ font-size:x-large;
+}
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       Text*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       Text*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       Text*/
+
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  start     ul*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  start     ul*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  start     ul*/
+
+ul.ulLink
+{ list-style-image:url('imagepool/ZeigemausSmall32x16.png');
+  margin-left:40px;
+  padding-left:0px ;
+}
+
+ul
+{ margin-left:0px;
+  padding-left:0px ;
+}
+
+li.liTop
+{  list-style-image: url('imagepool/webpictos/navTOP_24x24.png');
+}
+
+li.liUeberschrift
+{ font-size:large;
+}
+
+li.liNormal
+{ list-style-image:none;
+  margin-left:13px; 
+}
+
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
+
+
+table
+{padding: 0;
+ border-spacing: 0;
+ border-collapse:collapse;
+}
+
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   LINKS */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   LINKS */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  START   LINKS */
+
+
+a:link
+      {font-size        : small;
+       text-align       : left;
+       color            : #707070;
+      }
+a:visited
+      {font-size        : small;
+       text-align       : left;
+       text-decoration  : none;
+       color            : #707070;
+      }
+a:hover
+      {font-size         : small;
+       text-align        : left;
+       text-decoration   : blink;
+       color             : #000000;
+       background-color  : #C2B48C; 
+       }
+a:active
+      {font-size         : small;
+       text-align        : left;
+       text-decoration   : none;
+       color             : #707070;
+      }
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
+/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
+
+
+
+
