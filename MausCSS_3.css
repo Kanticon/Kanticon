@@ -210,9 +210,11 @@ a:active
        text-decoration   : none;
        color             : #707070;
       }
-/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
-/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
-/*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  ENDE   LINKS */
+
+a.galerie{
+	text-decoration		:	none;
+	background-color	:	transparent;
+	}
 
 
 
