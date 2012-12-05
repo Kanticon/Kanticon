@@ -168,6 +168,11 @@ li.liNormal
   margin-left:13px; 
 }
 
+li.liDetail
+{	list-style-image: url('imagepool/arrow.png');
+	margin-left: 26px;
+}
+
 
 /*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
 /*-- ++++++++++++++++++++++++++++++++++++++++++++++++++  END       ul*/
